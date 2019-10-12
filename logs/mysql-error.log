@@ -1,0 +1,15 @@
+2019-10-12T14:03:51.626027-00:00 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.17) initializing of server in progress as process 30
+2019-10-12T14:03:54.059677-00:00 5 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2019-10-12T14:03:58.091999-00:00 0 [System] [MY-013170] [Server] /usr/sbin/mysqld (mysqld 8.0.17) initializing of server has completed
+2019-10-12T14:04:00.077639-00:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.17) starting as process 82
+2019-10-12T14:04:00.745068-00:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2019-10-12T14:04:00.781413-00:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.17'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2019-10-12T14:04:00.839591-00:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock'
+2019-10-12T14:04:10.735912-00:00 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.17)  MySQL Community Server - GPL.
+2019-10-12T14:04:11.159572-00:00 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.17) starting as process 1
+2019-10-12T14:04:11.607858-00:00 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2019-10-12T14:04:11.634984-00:00 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.17'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2019-10-12T14:04:11.724889-00:00 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2019-10-12T14:26:56.536058-00:00 8 [Warning] [MY-010055] [Server] IP address '172.19.0.1' could not be resolved: Name or service not known
+mbind: Operation not permitted
+mbind: Operation not permitted
