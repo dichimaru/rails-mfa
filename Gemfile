@@ -33,6 +33,12 @@ gem 'hamlit'
 gem 'hamlit-rails'
 gem 'html2haml'
 
+# User
+gem 'sorcery'
+
+# MFA
+gem 'google-authenticator-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
