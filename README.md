@@ -18,4 +18,8 @@ rails でMFA認証するサンプル
 - 9. `docker-compose up -d`でmysql起動
 - 10. `bin/rails db:create`
 - 11. `rails webpacker:install`でwebpackerを追加
-
+- 12. Gemfileにhamlitを追加して、`bundle install`
+  - `gem 'hamlit'`
+  - `gem 'hamlit-rails'`
+  - `gem 'html2haml'`
+- 13. `bundle exec rake hamlit:erb2haml`でerbをhamlitに変換
