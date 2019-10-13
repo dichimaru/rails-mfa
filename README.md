@@ -24,3 +24,5 @@ rails でMFA認証するサンプル
   - `gem 'html2haml'`
 - 13. `bundle exec rake hamlit:erb2haml`でerbをhamlitに変換
 - 14. Gemfileに`sorcery`追加して`bundle install`
+- 15. `bin/rails g sorcery:install`でgenerate実行
+- 16. `bin/rails db:migrate`

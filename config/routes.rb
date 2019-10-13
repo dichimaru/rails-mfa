@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :users
+  resources :sessions, only: %i(new create destroy)
+  root   'top#index'
+  get    '/welcome', to: 'sessions#new',     as: :welcome
+  post   '/login',   to: 'sessions#create',  as: :login
+  delete '/logout',  to: 'sessions#destroy', as: :logout
+  resource :user_mfa_session, only: %i(new create)
 end

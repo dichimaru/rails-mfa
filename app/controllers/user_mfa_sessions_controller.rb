@@ -1,6 +1,5 @@
 class UserMfaSessionsController < ApplicationController
-  skip_before_filter :check_mfa
-
+  skip_before_action :check_mfa
   def new
     @user = current_user
   end
