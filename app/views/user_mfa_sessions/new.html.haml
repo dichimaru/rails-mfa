@@ -1,0 +1,10 @@
+- if flash[:error]
+  = flash[:error]
+
+= image_tag @user.google_qr_uri
+%br
+= form_with url: user_mfa_session_path, method: :post do
+  .actions
+    = text_field :auth, :mfa_code
+    = submit_tag 'authenticate'
+
