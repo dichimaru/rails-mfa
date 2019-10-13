@@ -10,4 +10,7 @@
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   %body.text-center
     .container
+      - flash.each do |message_type, message|
+        %div{class: "alert-#{message_type}"}
+          = message
       = yield
